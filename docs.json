@@ -9,9 +9,6 @@
   },
   "favicon": "/favicon.png",
   "navigation": {
-    "tabs": [
-      {
-        "tab": "Guides",
         "groups": [
           {
             "group": "Introduction",
@@ -46,22 +43,6 @@
             ]
           }
         ]
-      }
-    ],
-    "global": {
-      "anchors": [
-        {
-          "anchor": "Documentation",
-          "href": "https://heyshield.kinvori.com/docs",
-          "icon": "book-open-cover"
-        },
-        {
-          "anchor": "Blog",
-          "href": "https://heyshield.kinvori.com/blog",
-          "icon": "newspaper"
-        }
-      ]
-    }
   },
   "logo": {
     "light": "/logo/logo.png",
@@ -73,24 +54,7 @@
         "label": "Support",
         "href": "mailto:support@heyshield.com"
       }
-    ],
-    "primary": {
-      "type": "button",
-      "label": "Dashboard",
-      "href": "https://dashboard.mintlify.com"
-    }
-  },
-  "contextual": {
-    "options": [
-     "copy",
-     "view",
-     "chatgpt",
-     "claude",
-     "perplexity",
-     "mcp",
-     "cursor",
-     "vscode"
-   ]
+    ]
   },
   "footer": {
     "socials": {
