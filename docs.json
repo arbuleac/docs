@@ -16,9 +16,9 @@
                     {
                         "group": "Introduction",
                         "pages": [
-                            "index",
-                            "quickstart",
-                            "development"
+                            "overview",
+                            "platform-login",
+                            "enable-disable-service"
                         ]
                     },
                     {
