@@ -9,9 +9,6 @@
     },
     "favicon": "/favicon.png",
     "navigation": {
-        "languages": [
-            {
-                "language": "en",
                 "groups": [
                     {
                         "group": "Introduction",
@@ -54,28 +51,6 @@
                     }
                 ]
             },
-            {
-                "language": "es",
-                "groups": [
-                    {
-                        "group": "Introduction",
-                        "pages": [
-                            "index",
-                            "quickstart",
-                            "development"
-                        ]
-                    },
-                    {
-                        "group": "Devices",
-                        "pages": [
-                            "essentials/settings",
-                            "essentials/navigation"
-                        ]
-                    }
-                ]
-            }
-        ]
-    },
     "logo": {
         "light": "/logo/logo.png",
         "dark": "/logo/logo.png"
