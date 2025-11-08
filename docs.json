@@ -1,66 +1,72 @@
 {
-  "$schema": "https://mintlify.com/docs.json",
-  "theme": "mint",
-  "name": "HeyShield",
-  "colors": {
-    "primary": "#16A34A",
-    "light": "#07C983",
-    "dark": "#15803D"
-  },
-  "favicon": "/favicon.png",
-  "navigation": {
-        "groups": [
-          {
-            "group": "Introduction",
-            "pages": [
-              "index",
-              "quickstart",
-              "development"
-            ]
-          },
-          {
-            "group": "Customization",
-            "pages": [
-              "essentials/settings",
-              "essentials/navigation"
-            ]
-          },
-          {
-            "group": "Writing content",
-            "pages": [
-              "essentials/markdown",
-              "essentials/code",
-              "essentials/images",
-              "essentials/reusable-snippets"
-            ]
-          },
-          {
-            "group": "AI tools",
-            "pages": [
-              "ai-tools/cursor",
-              "ai-tools/claude-code",
-              "ai-tools/windsurf"
-            ]
-          }
+    "$schema": "https://mintlify.com/docs.json",
+    "theme": "mint",
+    "name": "HeyShield",
+    "colors": {
+        "primary": "#16A34A",
+        "light": "#07C983",
+        "dark": "#15803D"
+    },
+    "favicon": "/favicon.png",
+    "navigation": {
+        "languages": [
+            {
+                "language": "en",
+                "groups": [
+                    {
+                        "group": "Introduction",
+                        "pages": [
+                            "index",
+                            "quickstart",
+                            "development"
+                        ]
+                    },
+                    {
+                        "group": "Devices",
+                        "pages": [
+                            "essentials/settings",
+                            "essentials/navigation"
+                        ]
+                    }
+                ]
+            },
+            {
+                "language": "es",
+                "groups": [
+                    {
+                        "group": "Introduction",
+                        "pages": [
+                            "index",
+                            "quickstart",
+                            "development"
+                        ]
+                    },
+                    {
+                        "group": "Devices",
+                        "pages": [
+                            "essentials/settings",
+                            "essentials/navigation"
+                        ]
+                    }
+                ]
+            }
         ]
-  },
-  "logo": {
-    "light": "/logo/logo.png",
-    "dark": "/logo/logo.png"
-  },
-  "navbar": {
-    "links": [
-      {
-        "label": "Support",
-        "href": "mailto:support@heyshield.com"
-      }
-    ]
-  },
-  "footer": {
-    "socials": {
-      "x": "https://x.com/heyshield",
-      "github": "https://github.com/heyshield",
-      "linkedin": "https://linkedin.com/company/heyshield"
+    },
+    "logo": {
+        "light": "/logo/logo.png",
+        "dark": "/logo/logo.png"
+    },
+    "navbar": {
+        "links": [
+            {
+                "label": "Support",
+                "href": "mailto:support@heyshield.com"
+            }
+        ]
+    },
+    "footer": {
+        "socials": {
+            "github": "https://github.com/heyshield"
+        }
     }
-  }
 }
