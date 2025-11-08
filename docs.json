@@ -24,8 +24,32 @@
                     {
                         "group": "Devices",
                         "pages": [
-                            "essentials/settings",
-                            "essentials/navigation"
+                          {
+                            "group": "Router",
+                            "pages": [
+                              "add-router",
+                              "configure-asus-router",
+                              "ddns-services"
+                            ]
+                          },
+                          {
+                            "group": "Desktop/Notebook",
+                            "pages": [
+                              "add-desktop-windows",
+                              "configure-desktop-windows",
+                              "add-desktop-macos",
+                              "configure-desktop-macos"
+                            ]
+                          },
+                          {
+                            "group": "Mobile Device",
+                            "pages": [
+                              "add-mobile-android",
+                              "configure-mobile-android",
+                              "add-mobile-ios",
+                              "configure-mobile-ios"
+                            ]
+                          }
                         ]
                     }
                 ]
