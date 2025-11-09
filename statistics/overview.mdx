@@ -1,6 +1,24 @@
 ---
 title: "Statistics"
-description: "Description of your new file."
+description: "The Statistics section of HeyShield provides insights into browsing activity and domain filtering over the past 30 days.
+Access this page by selecting Statistics from the left-side navigation panel."
 ---
 
 ![Statistics Overview Pn](/images/statistics_overview.png)
+
+### **3.1 Overview**
+
+The **Statistics** dashboard (Figure 9) includes two primary panels:
+
+- **Global activity**\
+  Displays the total number of allowed and blocked DNS requests within the last 30 days.
+  - **Allowed:** Requests successfully resolved through HeyShield’s filtering system.
+  - **Blocked:** Requests blocked due to being categorized as malicious, suspicious, or restricted.
+- **Top domains**\
+  Lists domains that were blocked most frequently, along with their respective categories and the number of blocked attempts.
+
+### **3.2 Usage Notes**
+
+- The statistics update automatically based on the latest DNS activity from connected devices.
+- Data is stored for a 30-day rolling period.
+- If no devices are currently added or filtering is disabled, the dashboard will show zeros for both **Allowed** and **Blocked** counts.
