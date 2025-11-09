@@ -50,11 +50,9 @@
                         ]
                     },
                     {
-                        "group": "Introduction",
+                        "group": "Statistics",
                         "pages": [
-                            "introduction/overview",
-                            "introduction/platform-login",
-                            "introduction/enable-disable-service"
+                            "statistics/overview"
                         ]
                     }
                 ]
