@@ -48,6 +48,14 @@
                             ]
                           }
                         ]
+                    },
+                    {
+                        "group": "Introduction",
+                        "pages": [
+                            "introduction/overview",
+                            "introduction/platform-login",
+                            "introduction/enable-disable-service"
+                        ]
                     }
                 ]
             },
