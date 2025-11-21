@@ -25,7 +25,7 @@
                             "group": "Router",
                             "pages": [
                               "devices/router/add-router",
-                              "devices/router/configure-asus-router",
+                              "devices/router/configure-router",
                               "devices/router/ddns-services"
                             ]
                           },
