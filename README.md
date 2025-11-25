@@ -1,4 +1,4 @@
-# Hey Shield 
+# DNS Filtering
 
 ### **Smart Cybersecurity-as-a-Service for Telecom Operators.**
 
